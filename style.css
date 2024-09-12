@@ -206,12 +206,12 @@ input[type="number"]::placeholder{
     .card-back{
         left:30%;
         top:3rem;
-        z-index:0;
+        z-index:1;
     }
     .card-front{
         left:25%;
         top:12.5rem;
-        z-index:1;
+        z-index:0;
     }
 .container{
     margin: 8rem auto;
@@ -236,11 +236,12 @@ input[type="number"]::placeholder{
     .card-front{
         top:11.3rem;
         left:13%; 
+        z-index: 1;
     }
     .card-back{
-       
         left:25%;
         top:2rem;
+        z-index: 0;
     }
     .container{
         max-width: 85%;
@@ -256,10 +257,12 @@ input[type="number"]::placeholder{
   .card-front{
     top: 8.1rem;
     left:4%;
+    z-index: 1;
   }
   .card-back{
   left:11%;
   top:1rem;
+  z-index: 0;
   }
   .card-cvc{
     margin-top: 5rem;
@@ -273,7 +276,6 @@ input[type="number"]::placeholder{
     width: 85%;
   }
 }
-
 
 @media screen  and (min-width:1920px){
   .card-front{
